@@ -181,6 +181,7 @@ MonoBehaviour:
   _spawner: {fileID: 8699402259342606958}
   _exploder: {fileID: 5153870636244416574}
   _defaultChanceToSeparate: 100
+  _chanceToSeparate: 0
 --- !u!114 &7722624655746563951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,5 +210,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a711d1742904eb3a6f40bfe82a0b744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _explosionRadius: 20
+  _explosionRadius: 5
   _explosionForce: 500

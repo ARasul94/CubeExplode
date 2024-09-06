@@ -38,6 +38,7 @@ public class Separator : MonoBehaviour
         
         if (needSpawn == false)
         {
+            _exploder.ExplodeNearbyObjects();
             Destroy(gameObject);
             return;
         }
